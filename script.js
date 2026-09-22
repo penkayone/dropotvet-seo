@@ -1,7 +1,7 @@
 document.documentElement.classList.add('js');
 
 const blocks = document.querySelectorAll(
-  '.hero__inner > *, .brief .narrow, .section-head, .scope, .score-grid, .limits__grid, .bonus-grid, .single-plan, .start__items, .closing__inner'
+  '.hero__inner > *, .brief .narrow, .section-head, .scope, .view-formula, .score-grid, .bonus-price, .bonus-grid, .single-plan, .start__items, .closing__inner'
 );
 
 blocks.forEach((block) => block.classList.add('reveal'));
